@@ -1,0 +1,78 @@
+*{
+	margin: 0;
+	padding: 0;
+	font-family: ;
+}
+header{
+	background-image:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url('F:/HTML/tatka/image/cover.png');
+	height: 100vh;
+	background-size: cover;
+	background-position: center;
+
+}
+
+ul{
+	float: right;
+	list-style-type: none;
+	margin-top: 25px;
+	margin-right: 20px;
+}
+
+ul li{
+	display: inline-block;
+}
+
+ul li a{
+	text-decoration: none;
+	color: black;
+	padding: 5px 20px;
+	border: 2px solid black;
+	transition: 0.6s ease;
+}
+ul li a:hover{
+	background-color: #009900;
+	color:white;
+}
+ul li.active a{
+	background-color: #009900;
+	color:white;
+}
+.logo img{
+	float: left;
+	width: 150px;
+	height: 80px;
+}
+/*.main{
+	max-width: 1200px;
+	margin: auto;
+}
+*/
+.title{
+	position: absolute;
+	top: 18%;
+	left: 50%;
+	transform: translate(-50%,50%);
+}
+.title h1{
+	color: #00ff00;
+	font-size: 80px;
+	background-color: #99ff99;
+}
+.button{
+	position: absolute;
+	top: 78%;
+	left: 50%;
+	transform: translate(-50%,50%);
+}
+.btn{
+	border: 1px solid black;
+	border-radius: 15px 30px;
+	padding: 10px 30px;
+	color: white;
+	text-decoration: none;
+	
+}
+.btn:hover{
+	background-color: #0066ff;
+	color:white;
+}
